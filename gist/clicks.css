@@ -9,4 +9,10 @@
     height: 128px;
     margin-left: -64px;
     margin-top: -64px;
+    transition: .5s;
+}
+
+
+.rotated {
+    transform: rotateY(180deg);
 }
