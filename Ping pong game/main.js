@@ -52,11 +52,11 @@ this.ball.body.bounce.y = 1;
 update: function() {
   // If the right arrow is pressed, move the paddle to the right
   if (this.cursor.right.isDown) 
-    this.paddle.body.velocity.x = 350;
+    this.paddle.body.velocity.x = 1050;
 
   // If the left arrow if pressed, move left
   else if (this.cursor.left.isDown) 
-    this.paddle.body.velocity.x = -350;
+    this.paddle.body.velocity.x = -1050;
 
   // If no arrow is pressed, stop moving
   else 
