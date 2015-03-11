@@ -23,6 +23,7 @@ create: function() {
 
   // Make sure the paddle won't move when hit by the ball
   this.paddle.body.immovable = true;
+    this.paddle.body.collideWorldBounds = true;
 // Create a group that will contain all the bricks
 this.bricks = game.add.group();
 this.bricks.enableBody = true;
